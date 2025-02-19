@@ -1,0 +1,24 @@
+{
+  "name": "postgresclass2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "seed": "node seeding.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "yarn": "^1.22.22"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^9.5.0",
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^3.0.2",
+    "express": "^4.21.2",
+    "mongoose": "^8.10.1",
+    "pg": "^8.13.3"
+  }
+}
