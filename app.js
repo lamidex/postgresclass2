@@ -41,7 +41,7 @@ app.post('/signup', async (req, res) => {
         console.log(error);
         return res.status(500).json('An error occurred while creating the user');
     }
-})
+});
 
 
 // User Login
@@ -65,7 +65,7 @@ app.post('/login', async (req, res) => {
         console.log(error);
         return res.status(500).json('An error occurred while logging in');
     }
-})
+});
 
 
 
